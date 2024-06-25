@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* //////////////////////        header            ///////////////////////////////////////////////////////// */
+
+
+    @media screen and (max-width: 1441px){
+        .layout-comp-div{
+             padding: 0 5%;
+        }
+    }
+    
+    @media screen and (max-width: 1025px){
+        .navbar{
+            gap: 0;
+        }
+    }
+    @media screen and (max-width: 769px){
+        .navbar{
+            display: none;
+
+        }
+        .menu-icon{
+            display: inline-block;
+        }
+        .header-outer-cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-btn{
+            display: none;
+        }
+        .logo{
+            
+        }
+    }
+    @media screen and (max-width: 426px){
+        .header-outer-cont{
+            padding: 5% 5%;
+        }
+    }
+
+/* ////////////////////////          CARD           ///////////////////////////////////////////////////// */
+    
+@media screen and (max-width: 1025px){
+    .card-p{
+        font-size: 11px;
+    }
+    .card-h{
+        font-size: 14px;
+    }
+}
+
+/* /////////////////////         layout            /////////////////////////////////////////////////////// */
+@media screen and (max-width: 1025px){
+    .layout-triangle-img
+    {
+        height: 85vh;
+        margin-top: 3.5%;
+    }
+    .layoutBlur1{
+        top: -3%;
+    }
+}
+@media screen and (max-width: 769px){
+    .layout-triangle-img
+    {
+        height: 87vh;
+        margin: 4% 0 0 5%;
+       
+    }
+    .layoutBlur1{
+        top: -2%;
+    }
+}
+@media screen and (min-width: 1441px){
+    .layout-outer-div{
+        padding: 0 15%;
+    }
+}
+@media screen and (max-width: 426px){
+    .layout-triangle-img{
+        height: 80vh;
+
+    }
+}
+/* /////////////////////          section 1        /////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 1025px){
+
+}
+@media screen and (max-width: 769px){
+    .section1-btn
+    {
+       font-size: 11px;
+    }
+}
+@media screen and (max-width: 426px){
+    .section1-inner-div p{
+        width: 98%;
+    }
+   
+}
+@media screen and (max-width: 376px){
+    .section1-inner-div h1{
+        font-size: 24px;
+    }
+    .section1-inner-div h1 span{
+        font-size: 24px;
+    }
+    .section1-inner-div p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .section1-p-br{
+       display: none;
+    }
+}
+@media screen and (max-width: 321px){
+    .section1-inner-div h1{
+        font-size: 22px;
+    }
+    .section1-inner-div h1 span{
+        font-size: 22px;
+    }
+    .section1-inner-div p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+/* /////////////////////          section 2         /////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1025px){
+    .cardsCont{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 769px){
+    .section2-part1
+    {
+       flex-direction: column;
+       gap: 15px;
+    }
+    .section2-part1:first-child > *
+    {
+       text-align: center;
+    }
+}
+@media screen and (max-width: 376px){
+    .search-div{
+        flex-direction: column;
+    }
+    .recentBar{
+        padding: 7px 8px;
+    }
+}
+
+/* //////////////////////          footer        ///////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 1025px){
+    .footerCard{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 769px){
+    .footerCard
+    {
+       width: 70%;
+    }
+    .footerCont{
+        flex-direction: column;
+    }
+    .footerCont div{
+       align-items: center;
+       padding-bottom: 15px;
+    }
+    .footerCont div p{
+        text-align: center;
+     }
+}
+@media screen and (max-width: 426px){
+    .footerCardImg {
+        height: 80px;
+    }
+    .footerCardBtn{
+        padding: 8px 6px;
+        gap: 4px;
+        margin-top: 10px;
+    }
+    .footerCardBtn img{
+       height: 11px;
+    }
+    .footerCard{
+        width: 75%;
+        top: -25%;
+    }
+    .footerCard:first-child img{
+        margin-right: 0;
+    }
+    .footerCard:first-child div p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .footerNavbar button{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 376px){
+    .footerNavbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .footerNavbar button{
+        font-size: 13px;
+    }
+    .footerCont-div1{
+        border-bottom: 1.5px solid #587263 ;
+    }
+}
