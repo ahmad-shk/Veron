@@ -16,6 +16,9 @@ function ChallengeCard() {
 <div className='flex justify-center items-center h-full w-full'>
               
                 <img src='./white.png' className='- h-[250px] w-[100%] -relative z-[]'/>
+                <h1 className='text-white absolute text-center hover:text-[32px] hover:font-semibold hover:text-[yellow] transition-[.5s]'>
+                  Nike Spencer<br/><br/>For 14k rs.
+                </h1>
                 </div>   
 
            </div>

@@ -11,7 +11,7 @@ function Header() {
         
 
      
-<div className='flex gap-2 justify-start items-center'>
+                    <div className='flex gap-2 justify-start items-center'>
                         <img src='./futnext logo.svg' className='h-[40px] w-[40px]' />
                         <h1 className='text-white text-[24px] font-semibold mb-1'>Veron</h1>
                     </div>

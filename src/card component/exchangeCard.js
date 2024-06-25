@@ -11,8 +11,11 @@ function ExchangeCard() {
             <div className='h-[75%] w-[75%] rounded-full bg-gradient-to-r from-[black] from-10% to-[#98DD1F] absolute bottom-[-15%] right-[-30%] rotate-[35deg] z-[-1]'></div>
             
            
-              <div className='relative h-full w-[100%]'>
+              <div className='relative h-full w-[100%] flex justify-center items-center'>
                 <img src='./grey.png' className='card-img h-[250px] w-[100%]  -relative z-[] '/>
+                <h1 className='text-white absolute text-center hover:text-[32px] hover:font-semibold hover:text-[skyblue] transition-[.5s]'>
+                  Nike Air hustler<br/><br/>For 9k rs.
+                </h1>
               </div>
 
             </div>
